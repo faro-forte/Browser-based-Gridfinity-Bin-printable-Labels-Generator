@@ -10,7 +10,8 @@ Das Label wird zweiteilig erzeugt – Grundplatte und erhabenes Relief – und k
 ## Funktionen
 
 - **Icons in vier Gruppen:** Antrieb (Schlitz, PH, PZ, Innensechskant, Torx, …), Kopfart (Zylinder-, Sechskant-, Senk-, Linsen-, Flach-, Flanschkopf, ohne Kopf), Gewinde / Schraubenart (Voll-, Teil-, Holz-, Blechgewinde, Bohrschraube, …) sowie Muttern und Scheiben. Kopf und Gewinde werden automatisch zu einer Schraube zusammengesetzt.
-- **Text und Zusatztext** mit automatischer Größenanpassung und Warnung, wenn Schrift zu klein zum Drucken wird.
+- **Text und Zusatztext** mit automatischer Größenanpassung und Warnung, wenn Schrift zu klein zum Drucken wird. Das Durchmesser-Zeichen ⌀ lässt sich per Knopf neben dem Textfeld einfügen, z. B. „Scheibe ⌀ 7“.
+- **Oberfläche auf Deutsch und Englisch** (Umschalter oben rechts, beim ersten Öffnen nach Browsersprache).
 - **Breiten 1× bis 5×** (Label-Länge = 42 mm × Einheiten − 4,2 mm).
 - **Serien:** z. B. „M3“ mit „6, 8, 10, 12“ → vier Labels auf einmal.
 - **Export:** 3MF (ein Objekt mit den Teilen „Basis“ und „Relief“) oder zwei STL-Dateien.
@@ -23,7 +24,7 @@ Das Label wird zweiteilig erzeugt – Grundplatte und erhabenes Relief – und k
 ## Zweifarbig drucken (ElegooSlicer / OrcaSlicer / Bambu Studio)
 
 1. Im Filament-Bereich ein zweites Filament anlegen (z. B. 1 = Schwarz, 2 = Weiß).
-2. 3MF öffnen, in der Objektliste das Objekt aufklappen – darunter liegen die Teile „Basis“ und „Relief“.
+2. 3MF öffnen, in der Objektliste das Objekt aufklappen – darunter liegen die Teile „Basis“ und „Relief“ (in der englischen Oberfläche „Base“ und „Relief“).
 3. Rechtsklick auf „Relief“ → Filament ändern → Filament 2.
 4. Slicen. Der Farbwechsel liegt genau auf der Schichtgrenze bei 0,4 mm.
 
@@ -58,18 +59,17 @@ Each label is generated in two parts – base plate and raised relief – ready 
 ## Features
 
 - **Icons in four groups:** drive (slot, PH, PZ, hex socket, Torx, …), head type (socket cap, hex, countersunk, button, pan, flange, headless), thread / screw type (full, partial, wood, sheet metal, self-drilling, …) plus nuts and washers. Head and thread are combined into one screw icon automatically.
-- **Main and secondary text** with automatic sizing and a warning when text gets too small to print.
+- **Main and secondary text** with automatic sizing and a warning when text gets too small to print. The diameter sign ⌀ can be inserted with the button next to the text field, e.g. "Washer ⌀ 7".
+- **User interface in English and German** (switch at the top right; the first visit follows your browser language).
 - **Widths 1× to 5×** (label length = 42 mm × units − 4.2 mm).
 - **Series:** e.g. "M3" with "6, 8, 10, 12" creates four labels at once.
-- **Export:** 3MF (one object with the parts "Basis" and "Relief") or two STL files.
+- **Export:** 3MF (one object with the parts "Base" and "Relief") or two STL files.
 - Runs entirely in the browser. Labels are stored locally in your browser.
-
-The user interface is in German.
 
 ## Two-colour printing (ElegooSlicer / OrcaSlicer / Bambu Studio)
 
 1. Add a second filament (e.g. 1 = black, 2 = white).
-2. Open the 3MF and expand the object in the object list – it contains the parts "Basis" and "Relief".
+2. Open the 3MF and expand the object in the object list – it contains the parts "Base" and "Relief" ("Basis"/"Relief" when exported from the German interface, as in the example file).
 3. Right-click "Relief" → Change filament → filament 2.
 4. Slice. The colour change sits exactly on the layer boundary at 0.4 mm.
 
@@ -78,6 +78,14 @@ Recommended: max. 0.2 mm layer height, 0.4 mm nozzle or smaller.
 ## Dimensions
 
 Measured from Pred's original labels: 37.8 × 12 × 0.8 mm (1×) and 79.8 × 12 × 0.8 mm (2×). All dimensions can be adjusted in the generator.
+
+Matching bins: [Gridfinity Bin with Printable Label by Pred](https://www.printables.com/model/592545-gridfinity-bin-with-printable-label-by-pred-parame) and the [remix by Hideout Hobbyist](https://www.printables.com/model/1264115-gridfinity-bin-with-printable-label-by-pred-parame).
+
+## Publishing on GitHub Pages
+
+1. Create a new repository and upload the contents of this folder.
+2. *Settings → Pages → Build and deployment*: source "Deploy from a branch", branch `main`, folder `/ (root)`.
+3. After a minute or two the generator is live at `https://<username>.github.io/<repository>/`.
 
 ## License
 
